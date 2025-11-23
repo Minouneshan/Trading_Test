@@ -1,0 +1,163 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{leftmargin=1.6em, itemsep=0.3em}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\begin{document}
+\begin{center}
+  {\LARGE Intel FY2024 + FY2025 Run-Rate Due Diligence Brief}\\[4pt]
+  {\large 22 November 2025}
+\end{center}
+
+\section*{Executive takeaways}
+\begin{itemize}
+  \item Intel finished FY2024 at $53.1$B in revenue (-2\% YoY) with gross margin compressed to 32.7\% and a GAAP operating loss of $11.7$B as IDM 2.0 modernization, inventory reserves, and restructuring charges totaled $7$B (FY2024 Form 10-K).
+  \item Client Computing returned to modest growth ($30.3$B, +3.5\%) on AI PC enablement, while Data Center \& AI ($12.8$B, +1.4\%) leaned on Gaudi and Granite Rapids sampling; Network \& Edge stayed flat, and Intel Foundry posted a $13.4$B operating loss as 18A/20A fabs ramped below absorption targets (Operating Segments note).
+  \item Cash from operations held at $8.3$B despite losses, but $23.9$B of capex kept free cash flow negative $15.6$B; Intel is relying on $10$B+ of CHIPS/EU subsidies, preferred equity, and strategic partnerships (U.S. DOE, Brookfield) to fund IDM 2.0.
+  \item Balance sheet liquidity remains solid (cash + short-term investments $22$B), yet debt sits at $46.3$B and inventories climbed to $12.2$B; cost controls, factory loading, and working-capital discipline are critical in 2025.
+  \item Q1 FY2025 revenue was $12.7$B (-0.4\% YoY): DCAI grew 7.8\%, NEX +46\%, and Foundry +7\% while CCG fell 8\% awaiting AI PC launches; GAAP EPS stayed negative (-\$0.09) as foundry absorption and restructuring charges persisted (March 29, 2025 Form 10-Q).
+\end{itemize}
+
+\section*{Source corpus}
+\begin{itemize}
+  \item Intel Corporation Form 10-K for the fiscal year ended December 28, 2024 (filed February 2025).
+  \item Intel Corporation Form 10-Q for the quarter ended March 29, 2025 (filed April 2025).
+  \item Intel Corporation Form 10-Q for the quarter ended September 28, 2025 (filed November 2025, PDF reference for outlook/color).
+  \item ``Semiconductor List.xlsx'' (updated November 2025) for peer growth, valuation, and profitability benchmarks.
+\end{itemize}
+
+\section*{IDM 2.0 transformation map}
+\begin{itemize}
+  \item \textbf{Foundry services (IFS)}: 18A/20A process portfolio, advanced packaging (Foveros, EMIB), CHIPS-funded mega fabs in Arizona/Ohio/Germany, and external customers (MediaTek, Amazon, U.S. DoD) alongside internal wafers.
+  \item \textbf{Client (CCG)}: Meteor Lake/Arrow Lake, Lunar Lake ultra-mobile, AI PC platforms with on-die NPU (Copilot+), and Evo/Commercial vPro device stack.
+  \item \textbf{Data Center \& AI (DCAI)}: Xeon 6 (E-core/Sierra Forest, P-core/Granite Rapids), Gaudi 2/3 accelerators, Falcon Shores GPU, Ethernet switching, and Habana software stack.
+  \item \textbf{Network \& Edge (NEX)}: 5G vRAN, Time Coordinated Computing, industrial control, Movidius/Altera FPGA edge accelerators, private wireless partnerships.
+  \item \textbf{Software and services}: OpenVINO, oneAPI, AI PC frameworks, internal foundry PDK/IP catalog.
+  \item \textbf{Capital partnerships}: Brookfield/OH STID financing, CHIPS Act grants/loans, EU/German subsidies, and customer co-invest (e.g., Microsoft for IFS packaging).
+\end{itemize}
+
+\section*{FY2024 scoreboard}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Metric (USD in billions) & FY2024 & FY2023 & YoY \\
+    \midrule
+    Revenue & 53.1 & 54.2 & -2.1\% \\
+    Gross margin & 17.3 & 21.7 & -20.1\% \\
+    Operating income & -11.7 & 0.1 & NM \\
+    Net income & -19.2 & 1.7 & NM \\
+    Operating cash flow & 8.3 & 11.5 & -27.7\% \\
+    Capital expenditures & 23.9 & 25.8 & -7.0\% \\
+    Free cash flow & -15.6 & -14.3 & Worse \\
+    R\&D expense & 16.5 & 16.0 & +3.1\% \\
+  Restructuring \& other & 7.0 & (0.1) & NM \\
+    Gross margin & 32.7\% & 40.0\% & -730 bps \\
+    Operating margin & -22.0\% & 0.2\% & NM \\
+    Net margin & -36.2\% & 3.1\% & NM \\
+    \bottomrule
+  \end{tabular}
+  \caption{Consolidated results derived from Intel FY2024 Form 10-K (amounts converted from millions).}
+\end{table}
+
+\subsection*{Observations}
+\begin{itemize}
+  \item $6.97$B of restructuring/product charges plus higher start-up depreciation erased the modest gross profit base, yielding full-year operating losses despite positive operating cash flow.
+  \item R\&D intensity (31\% of revenue) reflects concurrent CPU, GPU, accelerator, and process-node roadmaps; Intel reiterated \$15B+ annual R\&D through 2026.
+  \item Free cash flow stayed deeply negative until IFS loads its megafabs; management expects external wafers and subsidies to close the gap by 2026.
+\end{itemize}
+
+\section*{Segment and mix dynamics}
+\subsection*{FY2024 segment revenue}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Segment & Revenue (\$B) & Mix & YoY \\
+    \midrule
+    Client Computing Group & 30.3 & 57\% & +3.5\% \\
+  Data Center \& AI & 12.8 & 24\% & +1.4\% \\
+  Network \& Edge & 5.8 & 11\% & +1.2\% \\
+    Intel Foundry (IFS) & 17.5 & 33\% & -7.2\% \\
+    All other/eliminations & -13.3 & -25\% & Improved \\
+    \bottomrule
+  \end{tabular}
+  \caption{Reportable segment breakout per FY2024 Form 10-K, Note 3. Segment mix shown versus consolidated revenue.}
+\end{table}
+
+\subsection*{Latest quarterly pulse (Q1 FY2025)}
+\begin{itemize}
+  \item Revenue $12.7$B (-0.4\% YoY); CCG $7.63$B (-7.8\%), DCAI $4.13$B (+7.8\%), NEX $0.94$B (+46\%), Intel Foundry $4.67$B (+7.1\%).
+  \item Gross margin $5.5$B (43.4\%) vs. $5.2$B (41.0\%) prior year; operating loss -$1.1$B as Foundry GM stayed -21\%.
+  \item Cash from operations $1.1$B; capex $4.8$B keeps quarterly free cash flow near -$3.7$B despite initial CHIPS inflows.
+\end{itemize}
+
+\section*{Balance sheet, liquidity, and capital intensity}
+\begin{itemize}
+  \item \textbf{Liquidity}: Cash $8.2$B plus short-term investments $13.8$B provide $22$B of liquidity; Intel also has $10$B+ undrawn green/CHIPS-linked credit facilities.
+  \item \textbf{Leverage}: Total debt $46.3$B (including $3.7$B short-term) vs. equity $99.3$B; rating agencies keep Intel at A-/Baa1 contingent on subsidy execution and negative free cash flow narrowing.
+  \item \textbf{Working capital}: Inventories $12.2$B (days inventory \\textasciitilde{}190) as Intel stages EUV nodes; accounts payable $12.6$B reflects tool deliveries and co-invest structures.
+  \item \textbf{Capex pipeline}: 2025 capex guide remains ``low-$20$B'' even after Brookfield partnership; subsidies (US CHIPS, EU/Germany, Israel) expected to reimburse $5$--$7$B annually once milestones hit.
+  \item \textbf{Capital returns}: Dividend remains suspended; buybacks paused since 2022 to prioritize fab funding.
+\end{itemize}
+
+\section*{Strategic themes and catalysts}
+\begin{enumerate}
+  \item \textbf{Foundry scale-up}: Landing anchor customers (DoD, AWS, MediaTek, Microsoft) on 18A/20A and Foveros Direct is key to absorbing $13$B+ of annual fixed cost.
+  \item \textbf{AI PC refresh}: Copilot+ premium notebooks, Lunar Lake, and Arrow Lake are the primary levers to stabilize CCG mix and margin.
+  \item \textbf{Gaudi/Falcon Shores ramp}: Offering a lower-cost accelerator alternative while Falcon Shores unifies GPU + vector IP in 2026; need proof points (Azure, AWS) to validate software stack.
+  \item \textbf{Cost resets}: $10$B cost-out program through 2025 targets opex and COGS; monitoring factory loading, EUV utilization, and headcount actions.
+  \item \textbf{Government/partner funding}: Execution on CHIPS grants, DOE loans, and customer co-invest (Brookfield, Apollo, PC OEMs) determines whether capex stays sustainable.
+\end{enumerate}
+
+\section*{Risks and watch items}
+\begin{itemize}
+  \item \textbf{Foundry economics}: Prolonged negative gross margin at IFS would pressure liquidity before subsidies arrive.
+  \item \textbf{PC cycle timing}: If AI PC uptake slips beyond holiday 2025, CCG mix could revert to low-end Chromebooks with weaker ASPs.
+  \item \textbf{Accelerator competition}: NVIDIA Blackwell and custom silicon (Amazon, Google) may limit Gaudi attach unless Intel rapidly expands software support.
+  \item \textbf{Supply chain execution}: 18A/20A yield learning, tool install bottlenecks, or HVM delays could jeopardize both internal Xeon 6 and external foundry commitments.
+  \item \textbf{Macro/geo}: Export controls on China data centers (where Intel still has share) and potential delays in EU subsidy disbursements remain key swing factors.
+\end{itemize}
+
+\section*{Scenario outlook}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{p{2cm}p{6.4cm}cc}
+    \toprule
+    Scenario & Key assumptions & FY2025 revenue (\$B) & FY2025 EPS (USD) \\
+    \midrule
+    Bear & AI PC adoption slips to late 2026, Foundry GM stays below -15\%, CHIPS cash pushes to 2026, DCAI share losses to NVIDIA Gaudi alternatives. & 50 & -0.40 \\
+    Base & AI PCs reach mid-teens PC mix, DCAI grows high-single digits on Xeon 6 + Gaudi, Foundry losses narrow with first external 18A wafers and CHIPS reimbursements. & 55 & 0.15 \\
+    Bull & CHIPS funds arrive early, Microsoft/DoD lock multi-year IFS capacity, Gaudi wins two hyperscale training clusters, PC refresh drives double-digit CCG growth. & 58 & 0.60 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Scenario guardrails anchored on FY2024 actuals, Q1 FY2025 run-rate, and peer estimates from Semiconductor List.xlsx.}
+\end{table}
+
+\section*{Action items}
+\begin{itemize}
+  \item Monitor CHIPS Act grant/loan milestones (U.S. and EU) and related cash inflows to gauge capex funding risk.
+  \item Track OEM launches of Copilot+ and AI PC skus (HP, Dell, Lenovo) plus attach rates for Intel's NPU roadmap.
+  \item Compare Gaudi win announcements versus NVIDIA Blackwell/Hopper deployments to judge DCAI upside.
+  \item Review quarterly disclosures on IFS external revenue, backlog, and packaging utilization to assess fixed-cost absorption.
+  \item Refresh valuation comps (PS NTM 3.2x, PE NTM 63.8x, beta 1.36) against AMD, NVIDIA, Broadcom, Qualcomm once FY2025 guide updates arrive.
+\end{itemize}
+
+\section*{Appendix: data notes}
+\begin{itemize}
+  \item Figures sourced from Intel FY2024 Form 10-K and Q1 FY2025 Form 10-Q; amounts reported in millions converted to USD billions and rounded to one decimal unless noted.
+  \item Free cash flow defined as net cash provided by operating activities minus additions to property, plant, and equipment.
+  \item Segment percentages calculated against consolidated revenue; negative ``all other" reflects corporate allocations and inter-segment eliminations.
+  \item Valuation data (market cap, PS/PE, beta, net margin) taken from ``Semiconductor List.xlsx" (November 2025 refresh).
+\end{itemize}
+
+\end{document}

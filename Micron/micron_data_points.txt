@@ -1,0 +1,34 @@
+Micron FY2025 Form 10-K (fiscal year ended August 28, 2025)
+----------------------------------------------------------
+- Net sales $37.378B (+48.9% YoY vs. FY2024 $25.111B; FY2023 $15.540B) as AI/HBM demand snapped the downcycle; gross margin rebounded to $14.873B (39.8%) from $5.613B (22.4%) in FY2024.
+- Operating income $9.770B (26.1% margin) after $3.798B R&D, $1.205B SG&A, and just $39M of restructuring; net income $8.539B with GAAP diluted EPS $7.59 on 1.125B shares.
+- Product mix: DRAM $28.578B (76% of revenue, +62% YoY), NAND $8.503B (23%, +18% YoY), other primarily NOR $0.297B.
+- Segment revenue FY2025 (Micron’s disclosed units):
+  • CMBU (Compute & Networking) $13.524B (36% mix) vs. $3.792B in FY2024 (+257% YoY) as HBM3E and DDR5 for AI servers ramped.
+  • CDBU (Client/Cloud Data) $7.229B (19% mix) vs. $4.984B FY2024 (+45% YoY) on PC inventory refill and enterprise SSDs.
+  • MCBU (Mobile) $11.859B (32% mix) vs. $11.667B FY2024 (+1.6% YoY) with LPDDR5X share gains at premium Android OEMs.
+  • AEBU (Auto & Embedded) $4.753B (13% mix) vs. $4.631B FY2024 (+2.6% YoY) as ADAS content/vehicle mix offset industrial softness.
+- Cash flow: operating cash flow $17.525B; capex (additions to PP&E) $15.857B; free cash flow ~$1.7B while government incentive proceeds totaled $2.005B (CHIPS and foreign subsidies).
+- Investing cash flow -$14.087B (heavy fab/tool spend even after $1.698B securities maturities); financing cash flow -$0.850B (debt issuance $4.43B offset by $4.62B repayments, $0.52B dividends).
+- Cash & cash equivalents $9.642B plus short-term investments $0.665B and long-term marketable securities $1.629B (total liquid assets $11.9B).
+- Working capital: receivables $9.265B (up $2.65B YoY), inventories $8.355B (down $0.52B), other current assets $0.914B; total current assets $28.841B vs. current liabilities $11.454B (2.5x current ratio).
+- Debt stack: short-term debt $0.560B, long-term debt $14.017B; total liabilities $28.633B versus shareholders’ equity $54.165B (debt-to-equity ~26%). Noncurrent unearned government incentives $1.018B represent future CHIPS/EU reimbursements.
+- Property, plant & equipment net $46.590B (+$6.841B YoY) as Boise, Hiroshima, and Taiwan advanced memory fabs are outfitted for 1-gamma DRAM/HBM.
+- R&D intensity 10.2% of sales; Micron reiterated >$3.5B annual R&D to extend EUV and backside power-delivery nodes.
+
+Micron Q3 FY2025 (quarter ended May 29, 2025)
+---------------------------------------------
+- Revenue $9.301B (+36% YoY); gross margin $3.508B (37.7%) vs. $1.832B (26.9%) prior year; operating income $2.169B (23.3% margin) after $965M R&D and $318M SG&A.
+- Net income $1.885B (GAAP EPS $1.68 diluted, $1.69 basic) vs. $0.332B ($0.30) a year ago; diluted share count 1.125B.
+- Nine-month FY2025 run-rate: revenue $26.063B (+50% YoY), operating income $6.116B vs. -$218M prior-year period, net income $5.338B vs. -$109M.
+- Cash flow for the nine months: operating cash $11.795B (vs. $5.102B prior-year), investing cash -$8.889B (capex) partially offset by $1.249B securities maturities and $1.294B government incentives; financing cash +$0.214B (debt issuance $4.43B less $3.604B repayments and $0.392B dividends).
+- Liquidity as of May 29, 2025: cash $10.163B, short-term investments $0.648B, total assets $78.397B; total liabilities $27.649B, equity $50.748B.
+- Segment/market commentary from the 10-Q: AI server/HBM demand kept CMBU sold out, PC attach improved but remains price-sensitive, mobile customers accelerated LPDDR5X adoption for on-device AI, and auto pipeline backlog (L2+/L3 ADAS) remains multiyear with stable pricing.
+
+Valuation and market reference (Semiconductor List.xlsx, Nov 2025)
+-----------------------------------------------------------------
+- Market cap ~$266B; share price $236.95; beta 1.53; dividend yield 0.19%; short interest 2.36%; next earnings date 16 December 2025.
+- Revenue LTM $37.38B; Revenue NTM $56.53B (+51% YoY growth implied); PS NTM 4.74x.
+- EPS LTM $8.29; EPS NTM $17.59; PE NTM 13.47x; PEG (FY1) 0.13x reflecting outsized forward EPS growth.
+- Debt/Equity 26.9%; net profit margin (LTM) 24.9%; 90-day annualized volatility 0.52.
+- Consensus has raised FY2026–FY2027 EPS 31–45% over the last 60 days as AI/HBM supply-demand stays tight.

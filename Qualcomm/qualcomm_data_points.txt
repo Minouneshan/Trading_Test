@@ -1,0 +1,23 @@
+Qualcomm FY2025 Form 10-K (fiscal year ended September 28, 2025)
+---------------------------------------------------------------
+- Net revenues $44.284B (+13.6% YoY vs. FY2024 $38.962B; FY2023 $35.820B) as Android flagship refreshes, Apple modem extension, and on-device AI upgrades drove equipment & services to $37.869B (+15%) and licensing royalties to $6.415B (+4%).
+- GAAP gross profit $24.546B (55.4% margin) against $19.738B cost of revenues; R&D spend $9.042B (20% of sales) and SG&A $3.110B. Operating income climbed to $12.355B (27.9% margin) and net income landed at $5.541B (12.5% margin) after a $7.122B tax charge tied to non-U.S. cash remeasurement and audit settlements; diluted EPS $5.01 on 1.105B shares.
+- Segment mix: QCT (chipsets) revenue $38.367B (+15.6% YoY) with Handsets $27.793B (73% mix, +12%), Automotive $3.957B (10%, +36%), and IoT $6.617B (17%, +22%); EBT $11.67B (30% margin, +210 bps). QTL (licensing) revenue $6.415B (+4%), segment EBT $5.188B (81% margin).
+- Cash flow: operating cash $14.012B (32% of revenue) on strong working-capital release; capex $1.192B (mostly 3/4/5 nm prepayments and test capacity) leaving ~$12.8B free cash flow. Investing cash -$0.8B after $4.694B securities purchases and $5.755B maturities; financing cash -$13.2B from $8.791B of buybacks, $3.805B dividends, and net $1.6B debt repayments.
+- Balance sheet highlights (Sep 28, 2025): cash & equivalents $5.520B, restricted cash $2.323B, short-term marketable securities $4.635B (total liquidity $12.478B); accounts receivable $4.315B, inventories $6.526B, other current assets $2.435B → total current assets $25.754B. Current liabilities $9.144B (current ratio 2.8x) with no commercial paper outstanding.
+- Noncurrent assets: deferred tax assets $0.743B, PP&E net $4.690B, goodwill $11.358B, intangible assets $1.148B, other assets $6.450B → total assets $50.143B. Debt stack: short-term $0, long-term $14.811B; other liabilities $4.911B; total liabilities $28.937B vs. equity $21.206B (D/E ~0.70).
+- Shareholder returns FY2025: $8.8B repurchases (46M shares retired at ~$189 avg), $3.8B common dividends ($3.20/share annualized), keeping cumulative capital returns >$110B since FY2003.
+
+Qualcomm Q3 FY2025 (quarter ended June 29, 2025)
+-----------------------------------------------
+- Quarterly revenue $10.365B (+10.4% YoY), gross margin 55.6%, operating income $2.762B (26.6% margin), and net income $2.666B (diluted EPS $2.43). Nine-month FY2025 revenue $33.013B (+15% YoY) with operating income $9.437B and net income $8.658B.
+- QCT quarterly details: $8.993B revenue (+11% YoY) with Handsets $6.328B, Automotive $0.984B (+21%), IoT $1.681B (+24%); segment EBT $2.671B (29.7% margin). QTL delivered $1.318B revenue (+3.5%) and $0.942B EBT (71.5% margin).
+- Cash flow (nine months): operating cash $11.0B, capex $0.86B, buybacks $6.4B, dividends $2.8B; period-end liquidity (Jun 29) $9.9B cash + $4.3B marketable securities vs. $15.0B total debt.
+- Management commentary from the 10-Q highlighted: (1) premium Android SoCs (Snapdragon 8 Gen 4) winning incremental Samsung, vivo, Xiaomi share; (2) Automotive design-win pipeline >$45B with first-gen Snapdragon Ride Flex in SOP at BMW and GM mid-2025; (3) IoT stabilizing in industrial/edge AI with Wi-Fi 7 and XR modules, though low-end consumer remains inventory-managed.
+
+Valuation and market reference (Semiconductor List.xlsx, Nov 2025)
+----------------------------------------------------------------
+- Ticker QCOM; share price ~$174.50; market cap ~$187B; beta 1.10; dividend yield 2.04%; net profit margin (LTM) 29.2%; debt-to-equity 69.8%.
+- Revenue LTM $44.14B; FY2025 consensus (current FY1) $45.6B (+3.2% YoY) and FY2026 $46.1B (+1.3%); implied NTM price-to-sales 4.10x.
+- EPS LTM $12.03, FY2025 consensus $12.12, FY2026 $12.43; NTM P/E ~14.3x with PEG (FY1) ~0.45x on low growth plus resilient margins.
+- Semi peer context: QCOM trades at a discount to high-growth AI CPU/GPU names (AMD 14x sales, NVDA 20x) but aligns with high-quality analog/mixed-signal leaders; 90-day annualized vol sub-30% keeps it a defensive wireless/edge AI play.

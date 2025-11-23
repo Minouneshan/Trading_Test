@@ -1,0 +1,184 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{leftmargin=1.6em, itemsep=0.3em}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\begin{document}
+\begin{center}
+  {\LARGE Microchip FY2025 + Run-Rate Due Diligence Brief}\\[4pt]
+  {\large 24 November 2025}
+\end{center}
+
+\section*{Executive takeaways}
+\begin{itemize}
+  \item FY2025 revenue collapsed 42\% to $4.40$B as the broad industrial/auto inventory correction starved orders, yet gross margin held 56\% and operating cash still reached $0.9$B (20\% of sales) even with fabs running well below capacity (Microchip Form 10-K).
+  \item Product/geography mix stayed diversified: mixed-signal MCUs 51\% of sales, analog 26\%, and Asia 50\%/Americas 30\%/Europe 20\% --- with distributors still 45\% of revenue and Arrow at 10\%; distributor days fell to 33 while Microchip's own inventories ballooned to 251 days, forcing $132$M of under-absorption expense.
+  \item Capital returns exceeded earnings: $976$M of common dividends and $96$M buybacks vs. $772$M free cash flow, funded via commercial paper, senior notes, and a new $1.45$B 7.5\% mandatory convertible preferred issuance; leverage covenants were relaxed (5.5x) while the recovery plan reduces inventory.
+  \item Q2 FY2026 (Sep-25 quarter) finally showed sequential revenue growth (+4\% QoQ) and a return to modest profitability ($0.03$ diluted EPS to common) while operating cash of $364$M year-to-date came almost entirely from inventory drawdown (Form 10-Q filed 6 November 2025).
+  \item Shares around \$55 (approx. \$30B market cap) trade at 5.8x NTM sales, 38x FY2026 EPS, a 3.3\% dividend yield, beta 1.47, and 80\% debt-to-equity --- a recovery/mean-reversion bet that still carries tax/audit disputes (IRS, Malaysia, Germany) and elevated payout commitments (Semiconductor List.xlsx).
+\end{itemize}
+
+\section*{Source corpus}
+\begin{itemize}
+  \item Microchip Technology Incorporated Form 10-K for FY2025 (filed 6 May 2025) --- consolidated statements, product/geography mix, cash flow, capital returns, CHIPS/expansion commentary.
+  \item Microchip Technology Incorporated Form 10-Q for Q2 FY2026 (quarter ended 30 September 2025, filed 6 November 2025) --- quarterly P\&L, cash flow, liquidity discussion, and recovery plan updates.
+  \item ``Semiconductor List.xlsx'' (November 2025 refresh) --- price, market cap, consensus revenue/EPS, valuation multiples, leverage, beta, volatility, and sentiment datapoints.
+\end{itemize}
+
+\section*{Embedded control portfolio map}
+\begin{itemize}
+  \item \textbf{Mixed-signal MCUs \\ \\ MPUs}: 8/16/32-bit PIC \\ AVR families, dsPIC motor-control and smart-energy controllers, TrustFLEX security modules, and broad development ecosystem.
+  \item \textbf{Analog, timing, connectivity}: Interface, power-management, mixed-signal, RF, Ethernet PHY/switching, and timing solutions that attach to Microchip MCUs or serve standalone sockets (industrial/auto).
+  \item \textbf{Other \\ FPGA/IP/legacy}: PolarFire FPGAs, licensing/royalty revenue (SuperFlash and IP sales), aerospace/defense ASICs, memory, and manufacturing services (foundry, assembly/test) that smooth utilization.
+\end{itemize}
+
+\section*{FY2025 scoreboard}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Metric (USD in billions) & FY2025 & FY2024 & YoY \\
+    \midrule
+    Revenue & 4.40 & 7.63 & -42.3\% \\
+    Gross profit & 2.47 & 5.00 & -50.6\% \\
+    Operating income & 0.30 & 2.57 & -88.5\% \\
+    Net income & -0.00 & 1.91 & -100\% \\
+    Operating cash flow & 0.90 & 2.89 & -68.9\% \\
+    Capital expenditures & 0.13 & 0.29 & -55.8\% \\
+    Free cash flow & 0.77 & 2.61 & -70.4\% \\
+    R\&D expense & 0.98 & 1.10 & -10.4\% \\
+    Dividends paid & 0.98 & 0.91 & +7.0\% \\
+    Share repurchases & 0.10 & 0.98 & -90.2\% \\
+    Gross margin & 56.1\% & 65.4\% & -930 bps \\
+    Operating margin & 6.7\% & 33.7\% & -2,700 bps \\
+    Net margin & -0.0\% & 25.0\% & -2,500 bps \\
+    \bottomrule
+  \end{tabular}
+  \caption{Microchip FY2025 consolidated results (millions converted to USD billions). Free cash flow defined as operating cash flow minus capital expenditures.}
+\end{table}
+
+\subsection*{Observations}
+\begin{itemize}
+  \item Inventory digestion, lower factory utilization, and $259$M of interest expense drove the near-break-even bottom line despite still-solid gross margin; $490.9$M of amortization and $79.2$M of restructuring weighed further.
+  \item Working-capital swing was mixed: accounts receivable fell $454$M and inventories $32$M, but accrued liabilities and LTSA deposit refunds consumed $346$M and $179$M of cash, respectively.
+  \item R\&D intensity jumped to 22\% of sales as management maintains MCU/analog roadmap funding during the downturn, while SG\&A fell 16\% YoY through comp resets and travel cuts.
+  \item Dividends continued unabated ($0.455$ quarterly) even as free cash flow shrank, highlighting reliance on external funding and the need for careful covenant management.
+\end{itemize}
+
+\section*{Mix snapshots}
+\subsection*{Product mix (FY2025)}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Product line & Revenue ($\!$B) & Mix & YoY \\
+    \midrule
+    Mixed-signal microcontrollers & 2.25 & 51.1\% & -47.3\% \\
+    Analog & 1.16 & 26.3\% & -42.6\% \\
+    Other (FPGA/IP/memory/services) & 0.99 & 22.6\% & -26.1\% \\
+    Total & 4.40 & 100\% & -42.3\% \\
+    \bottomrule
+  \end{tabular}
+  \caption{Product-line disclosure from FY2025 Form 10-K.}
+\end{table}
+
+\subsection*{Geographic mix (FY2025)}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Geography & Revenue ($\!$B) & Mix & YoY \\
+    \midrule
+    Americas & 1.33 & 30.2\% & -40.2\% \\
+    Europe & 0.88 & 19.9\% & -52.6\% \\
+    Asia & 2.20 & 49.9\% & -38.4\% \\
+    Total & 4.40 & 100\% & -42.3\% \\
+    \bottomrule
+  \end{tabular}
+  \caption{Geographic sales split per FY2025 Form 10-K; substantially all invoiced in USD.}
+\end{table}
+
+\subsection*{Channel and operations notes}
+\begin{itemize}
+  \item Distributors represented 45\% of FY2025 revenue (Arrow 10\%); distributor inventory dropped to 33 days from 41, yet Microchip's own inventory days rose to 251 as fabs ran at reduced loadings.
+  \item About 64\% of FY2025 sales shipped from external foundries while 67\% of assembly and test was internal; Fab 2 (Tempe) was shut in May 2025 and most expansion spending is paused through FY2026.
+  \item LTSA deposits collected during the shortage period are now being refunded as customers trim commitments, decreasing deferred revenue and cash in FY2025 and FY2026.
+\end{itemize}
+
+\section*{Latest quarterly pulse (Q2 FY2026)}
+\begin{itemize}
+  \item \textbf{P\&L}: Net sales $1.14$B (-2\% YoY, +4\% QoQ), gross profit $638$M (55.9\% margin), operating income $88.9$M (7.8\%), GAAP net income $41.7$M; after $27.8$M preferred dividends, diluted EPS to common was $0.03$.
+  \item \textbf{Six-month view}: Revenue $2.22$B (-7.9\% YoY), operating income $121$M (5.5\% margin), net loss to common $(32.5)$M as interest expense ($114$M) and opex ($1.09$B) stayed elevated.
+  \item \textbf{Cash flow}: Operating cash $363.7$M hinged on a $201$M inventory release, $56$M AR collection, and $26$M payables outflow; capex $54.4$M and LTSA/tax outflows left cash down $535$M since March.
+  \item \textbf{Balance sheet}: Cash $236.8$M, net receivables $746$M, inventory $1.10$B; long-term debt $5.38$B (commercial paper outstanding fluctuating, $175$M at FY2025 year-end but paid down mid-2026), total equity $6.70$B; current ratio 2.25x, but heavy dividend/interest obligations constrain flexibility.
+  \item \textbf{Management commentary}: Recovery plan continues to prioritize inventory reduction, paused factory additions, and selective customer allocation; Americas and Asia posted sequential growth while Europe remains soft; LTSA refunds and softer automotive demand remain headwinds.
+\end{itemize}
+
+\section*{Balance sheet, liquidity, and capital returns}
+\begin{itemize}
+  \item \textbf{Liquidity}: Cash $0.77$B at FY2025 end (down to $0.24$B by September), $2.99$B current assets vs. $1.16$B current liabilities (2.6x). Revolver capacity $2.25$B plus commercial paper program ($2.25$B limit) backstops working capital.
+  \item \textbf{Leverage}: Total debt $5.66$B with maturities spanning 2025--2030 senior notes plus CP; net leverage covenants temporarily relaxed (up to 6.25x in September 2025) to absorb earnings trough. Debt-to-equity around 0.8x.
+  \item \textbf{Capital returns}: $975.7$M FY2025 common dividends ($0.455$ quarterly), $2.2$M preferred dividends, $96.5$M buybacks (1M shares) leaving $1.56$B authorization. Series A preferred shares convert before 2028 and currently add $55.6$M annual dividend burden.
+  \item \textbf{Capex \\ CHIPS}: FY2025 capex $126$M and FY2026 plan ``at or below $100$M'' while awaiting a $162$M preliminary CHIPS Act grant for two U.S. fabs (not yet finalized). Government incentives reduced PP\&E carrying value by $46$M at FY2025.
+\end{itemize}
+
+\section*{Strategic themes and catalysts}
+\begin{enumerate}
+  \item \textbf{Inventory normalization}: Sequential demand uptick plus shrinking distributor days should enable utilization recovery and gross-margin rebuild once customer destocking ends.
+  \item \textbf{MCU + analog attach}: Broad PIC/AVR plus power/timing portfolio positions Microchip to capture electrification, industrial automation, and connectivity sockets when industrial OEMs resume ordering.
+  \item \textbf{PolarFire FPGA expansion}: Mid-range, power-efficient FPGAs and aerospace/defense sockets offer incremental growth with less competition from high-end AI accelerators.
+  \item \textbf{Operational discipline}: Paused expansions, Fab 2 closure, and selective outsourcing provide levers to restore mid-60\% gross margins as loadings normalize.
+  \item \textbf{Potential CHIPS grants}: Finalizing $162$M in grants and utilizing the 25\% investment tax credit could offset U.S. capex and bolster domestic manufacturing credibility with auto/defense customers.
+\end{enumerate}
+
+\section*{Risks and watch items}
+\begin{itemize}
+  \item \textbf{Macro/industrial demand}: A prolonged industrial/auto slowdown or renewed distributor destocking would delay margin recovery and strain dividend coverage.
+  \item \textbf{LTSA unwind}: Accelerated refunds or renegotiations could reduce deferred revenue and put further pressure on cash while customers retain take-or-pay leverage.
+  \item \textbf{Leverage and payouts}: Maintaining nearly $1B annual dividends plus pref coupons with sub-$1B operating cash leaves little cushion if utilization remains low.
+  \item \textbf{Tax and legal exposure}: IRS transfer-pricing (FY2007--2016), Malaysian assessment (up to \$410M), and German ORIP disputes (up to \$92M) could trigger sizable cash settlements and higher effective tax rates.
+  \item \textbf{Execution on cost actions}: Failure to migrate assembly/test in-house or delay in closing low-utilization fabs would keep unabsorbed overhead elevated.
+\end{itemize}
+
+\section*{Scenario outlook}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{p{2cm}p{6.6cm}cc}
+    \toprule
+    Scenario & Key assumptions & FY2026 revenue ($\!$B) & FY2026 EPS (USD) \\
+    \midrule
+    Bear & Industrial/auto demand flat, LTSA refunds continue, gross margin stuck near 55\%, dividends maintained; leverage rises toward covenants. & 4.3 & 1.10 \\
+    Base & Inventory correction ends mid-2026, utilization improves, gross margin back to 58\%, modest opex relief, tax rate normalizes high teens. & 4.6 & 1.44 \\
+    Bull & Accelerated restocking plus CHIPS support enables revenue snapback and 60\%+ gross margin; PolarFire \\ automotive sockets add upside, share count drifts lower. & 5.4 & 2.50 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Scenario guardrails anchored on FY2025 actuals, FY2026 run-rate metrics, and consensus inputs (Semiconductor List.xlsx: FY1 revenue $4.55$B, FY2 EPS $2.50$).}
+\end{table}
+
+\section*{Action items}
+\begin{itemize}
+  \item Track distributor inventory days, LTSA refund disclosures, and backlog commentary each quarter to gauge timing of volume recovery.
+  \item Monitor cash/credit metrics (commercial paper outstandings, revolver usage, leverage covenant headroom) versus dividend commitments.
+  \item Follow CHIPS Act negotiations and any incremental domestic capex plans that could unlock grants or tax credits.
+  \item Watch analog and MCU booking trends by end market (industrial, auto, comms, aero/defense) along with PolarFire design wins.
+  \item Update valuation comps (PS NTM 5.8x, PE FY2026 38x, dividend yield 3.3\%, beta 1.47) after each earnings release relative to analog peers (TXN, ADI) and MCU-focused rivals (NXP, Renesas).
+\end{itemize}
+
+\section*{Appendix: data notes}
+\begin{itemize}
+  \item Figures sourced from Microchip FY2025 Form 10-K and Q2 FY2026 Form 10-Q text extractions within this workspace; dollar amounts converted to USD billions and rounded to two decimals unless noted.
+  \item Free cash flow defined as GAAP operating cash flow minus capital expenditures; margins calculated from GAAP financials.
+  \item Valuation metrics, beta, EPS/revenue forecasts, dividend yield, leverage, volatility, and short interest pulled from ``Semiconductor List.xlsx'' dated November 2025.
+  \item Inventory days, distributor mix, LTSA commentary, and CHIPS grant details quoted directly from management discussions in the referenced filings.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,159 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{leftmargin=1.6em, itemsep=0.3em}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\begin{document}
+\begin{center}
+  {\LARGE AMD FY2024 + FY2025 Run-Rate Due Diligence Brief}\\[4pt]
+  {\large 22 November 2025}
+\end{center}
+
+\section*{Executive takeaways}
+\begin{itemize}
+  \item AMD closed FY2024 at $25.8$B in revenue (+14\% YoY) with gross margin rebounding to 49.3\%, operating income $1.9$B and net income $1.6$B (6.4\% net margin) after a year of elevated amortization and MI300 launch costs (FY2024 Form 10-K).
+  \item Data Center nearly doubled to $12.6$B (+94\% YoY) on MI300 accelerators, EPYC Genoa/Bergamo CPUs and adaptive NIC attach, pushing the segment to 49\% of company revenue; Client bounced 52\% on Ryzen AI notebooks while Gaming (-58\%) and Embedded (-33\%) digested inventory (Segment Note).
+  \item Free cash flow reached $2.4$B on $3.0$B operating cash flow and $0.6$B capex, funding $0.86$B buybacks, $0.73$B tax-withholding repurchases, and $0.75$B debt retirement while keeping net cash roughly $2.3$B (cash/investments $5.1$B vs. debt $1.7$B) (Cash Flow and Balance Sheet).
+  \item Intangibles dominate the balance sheet post-Xilinx ($24.8$B goodwill, $18.9$B acquisition intangibles) but amortization ($2.4$B in 2024) is rolling off; R\&D intensity stayed elevated at 25\% of revenue as AMD races to keep its MI300/Strix Point/Ryzen AI product cadence ahead of hyperscaler demand (Item 7).
+  \item Q3 FY2025 run-rate reinforces the AI pivot: quarterly revenue $9.25$B (+36\% YoY) with Data Center $4.3$B, Client $2.75$B and Gaming $1.30$B, plus consolidated gross margin 51.7\% and opex leverage from AI PCs (September 27, 2025 Form 10-Q).
+\end{itemize}
+
+\section*{Source corpus}
+\begin{itemize}
+  \item Advanced Micro Devices, Inc. Form 10-K for the fiscal year ended December 28, 2024 (filed February 2025).
+  \item AMD Form 10-Q for the quarter ended September 27, 2025 (filed November 2025).
+  \item ``Semiconductor List.xlsx'' (updated November 2025) for peer growth, valuation, and profitability benchmarks.
+\end{itemize}
+
+\section*{Heterogeneous compute platform map}
+\begin{itemize}
+  \item \textbf{Data Center}: MI300X/MI300A accelerator platforms, EPYC Genoa/Bergamo/Turin CPUs, Pensando/DPUs, adaptive NICs and Xilinx Versal FPGAs position AMD across training, inference, and SmartNIC workloads.
+  \item \textbf{Client \& AI PCs}: Ryzen 8000/9000-series CPUs with on-die Ryzen AI NPUs target the Windows AI PC upgrade, while Strix Point APUs meld Zen5 + RDNA3.5 + XDNA 2 for on-device generative AI.
+  \item \textbf{Gaming}: RDNA3 discrete GPUs and semi-custom SoCs (Sony, Microsoft) remain the console anchor though FY2024 revenue compressed during the post-pandemic lull.
+  \item \textbf{Embedded}: Xilinx adaptive compute (industrial/auto/5G) plus AMD's networking/vision catalog; growth will return as carrier and industrial capex pauses resolve.
+  \item \textbf{Software/Systems}: ROCm 6, open AI software stacks, and Infinity Fabric tie the silicon portfolio together; AMD is leaning on co-packaged optics, CXL memory pooling, and modular chiplets to stay competitive versus NVIDIA and Intel Foundry services.
+\end{itemize}
+
+\section*{FY2024 scoreboard}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Metric (USD in billions) & FY2024 & FY2023 & YoY \\
+    \midrule
+    Revenue & 25.8 & 22.7 & +13.7\% \\
+    Gross profit & 12.7 & 10.5 & +21.7\% \\
+    Operating income & 1.9 & 0.4 & +373\% \\
+    Net income & 1.6 & 0.9 & +92\% \\
+    Operating cash flow & 3.0 & 1.7 & +82\% \\
+    Capital expenditures & 0.6 & 0.5 & +16\% \\
+    Free cash flow & 2.4 & 1.1 & +115\% \\
+    R\&D expense & 6.5 & 5.9 & +9.9\% \\
+    Gross margin & 49.3\% & 46.1\% & +320 bps \\
+    Operating margin & 7.4\% & 1.8\% & +560 bps \\
+    Net margin & 6.4\% & 3.8\% & +260 bps \\
+    \bottomrule
+  \end{tabular}
+  \caption{Consolidated results from FY2024 Form 10-K (amounts converted from millions).}
+\end{table}
+
+\subsection*{Observations}
+\begin{itemize}
+  \item Operating leverage returned as amortization stabilized and MI300 shipments scaled; total amortization of acquisition-related intangibles fell to $2.4$B from $2.8$B.
+  \item R\&D at $6.5$B (25\% of revenue) underscores AMD's need to maintain simultaneous CPU, GPU, DPU, NPU and adaptive roadmaps.
+  \item Share-based comp plus integration investments kept opex elevated, but $2.4$B FCF enabled $2.3$B of combined debt paydown and buybacks without tapping cash balances.
+\end{itemize}
+
+\section*{Segment and mix dynamics}
+\subsection*{FY2024 segment revenue}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Segment & Revenue (\$B) & Mix & YoY \\
+    \midrule
+    Data Center & 12.6 & 49\% & +94\% \\
+    Client & 7.1 & 27\% & +52\% \\
+    Gaming & 2.6 & 10\% & -58\% \\
+    Embedded & 3.6 & 14\% & -33\% \\
+    \bottomrule
+  \end{tabular}
+  \caption{Reportable segment breakout (FY2024 Form 10-K, Item 7).}
+\end{table}
+
+\subsection*{Latest quarterly pulse (Q3 FY2025)}
+\begin{itemize}
+  \item Revenue $9.25$B (+36\% YoY); Data Center $4.34$B (+22\% YoY), Client $2.75$B (+46\%), Gaming $1.30$B (+181\%), Embedded $0.86$B (-8\%).
+  \item Gross profit $4.78$B (51.7\% margin) vs. $3.42$B (50.1\%) prior year; operating cash flow for the first nine months was not disclosed in detail, but YTD net revenue of $24.4$B keeps AMD on pace for a $34$B+ FY2025 run-rate.
+  \item Mix shift toward MI300 and Ryzen AI NPUs is visible in the quarterly net revenue table (September 27, 2025 Form 10-Q).
+\end{itemize}
+
+\section*{Balance sheet, liquidity, and capital returns}
+\begin{itemize}
+  \item \textbf{Liquidity}: Cash and equivalents $3.79$B plus short-term investments $1.35$B fund $5.1$B of on-hand liquidity; total current assets $19.0$B vs. current liabilities $7.3$B (2.6x current ratio).
+  \item \textbf{Leverage}: Long-term debt $1.72$B following repayment of the 2.95\% $750$M notes; net cash position \textasciitilde{}$2.3$B even after $0.86$B buybacks and $0.73$B tax-withholding repurchases.
+  \item \textbf{Working capital}: Inventories $5.73$B (+32\% YoY) as AMD staged MI300 and Ryzen AI builds; accounts receivable $6.19$B reflect hyperscaler concentration.
+  \item \textbf{Intangibles}: Goodwill $24.8$B and acquisition intangibles $18.9$B remain 63\% of assets; amortization ($2.4$B) and future renewals are key for GAAP vs. cash earnings reconciliation.
+  \item \textbf{Capital allocation}: $0.64$B capex prioritized MI300 capacity, test equipment, and design centers; share repurchase authorization still has \textgreater{}$6$B of capacity.
+\end{itemize}
+
+\section*{Strategic themes and catalysts}
+\begin{enumerate}
+  \item \textbf{AI accelerator land grab}: MI300X ramp plus MI300A for CDNA-based supercomputers positions AMD as the only credible GPU alternative to NVIDIA for 2025 AI clusters; HBM supply and CoWoS availability remain gating factors.
+  \item \textbf{AI PC refresh}: Microsoft Copilot+ and Windows AI PC requirements should pull Ryzen AI/Strix into 2025 notebook cycles; OEM adoption cadence will dictate Client margin recovery.
+  \item \textbf{Xilinx leverage}: Embedding Versal and RFSoC IP into Data Center SmartNICs and automotive platforms should stabilize Embedded after the current digestion.
+  \item \textbf{Adaptive infrastructure}: CXL memory pooling, Infinity architecture, and chiplet roadmaps reinforce AMD's ``modular'' differentiation vs. monolithic Intel offerings.
+  \item \textbf{Software ecosystem}: ROCm 6, open-source AI frameworks, and partnerships with PyTorch/ONNX/Triton aim to narrow CUDA's moat; developer momentum remains the key KPI.
+\end{enumerate}
+
+\section*{Risks and watch items}
+\begin{itemize}
+  \item \textbf{Hyperscaler concentration}: Top cloud customers drive the MI300 ramp; any internal accelerator success or qualification delays could swing quarterly revenue materially.
+  \item \textbf{HBM/packaging supply}: MI300 output depends on TSMC CoWoS and HBM3/3E supply; bottlenecks would cap Data Center upside.
+  \item \textbf{Embedded and Gaming digestion}: Console and industrial demand may stay weak into 2025, weighing on mix and margin.
+  \item \textbf{Intangible-weighted balance sheet}: $43.7$B of goodwill/intangibles plus $61.4$B of APIC leaves AMD exposed to impairment if future cash flows lag.
+  \item \textbf{Competitive response}: NVIDIA's Blackwell, Intel's Gaudi/AI PC push, and custom silicon from hyperscalers could compress pricing.
+\end{itemize}
+
+\section*{Scenario outlook}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{p{2cm}p{6.4cm}cc}
+    \toprule
+    Scenario & Key assumptions & FY2025 revenue (\$B) & FY2025 EPS (USD) \\
+    \midrule
+    Bear & HBM/CoWoS supply limits MI300 deliveries, AI PC adoption slips to late 2026, Embedded recovery deferred; gross margin \textless{}50\%. & 32 & 2.80 \\
+    Base & MI300 capacity doubles sequentially, AI PC mix hits mid-teens of Client shipments, Embedded stabilizes by 2H25. & 37 & 4.10 \\
+    Bull & Hyperscalers lock multi-year MI350 contracts, Ryzen AI PCs reach 25\% mix, Embedded returns to $5$B run-rate; gross margin \textgreater{}53\%. & 45 & 5.50 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Scenario guardrails anchored on FY2024 actuals, Q3 FY2025 run-rate, and consensus from Semiconductor List.xlsx.}
+\end{table}
+
+\section*{Action items}
+\begin{itemize}
+  \item Track MI300/HBM capacity updates from TSMC, SK hynix, and AMD supply chain disclosures.
+  \item Monitor Windows AI PC launch cadence and OEM announcements to gauge Client upside.
+  \item Watch Embedded bookings (industrial/auto) for signs of digestion ending; Xilinx backlog should translate to revenue by late 2025.
+  \item Compare AMD valuation (PS NTM 9.4x, PE NTM 39.6x) vs. NVIDIA, Qualcomm, and Broadcom to judge upside vs. execution risk.
+  \item Refresh data points once FY2025 10-K and MI350 disclosures arrive to validate scenario EPS.
+\end{itemize}
+
+\section*{Appendix: data notes}
+\begin{itemize}
+  \item Financial figures pulled from AMD FY2024 Form 10-K (amounts reported in millions) and AMD Q3 FY2025 Form 10-Q; conversions to USD billions are rounded to one decimal place.
+  \item Free cash flow defined as net cash provided by operating activities minus purchases of property and equipment.
+  \item Segment percentages computed from FY2024 segment revenue table; quarterly mix derived from Q3 FY2025 segment disclosure.
+  \item Valuation metrics sourced from ``Semiconductor List.xlsx'' (updated November 2025): Market cap $\sim$\$404B, PS NTM 9.37x, PE NTM 39.6x, net margin LTM 19\%.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,39 @@
+AMD FY2024 consolidated results (source: AMD Form 10-K for year ended Dec 28, 2024):
+- Net revenue: $25,785M vs. $22,680M in FY2023 (+13.7% YoY); gross profit $12,725M (49.3% margin), operating income $1,900M, net income $1,641M.
+- R&D expense: $6,456M (25% of revenue); marketing, general & administrative $2,783M.
+- Amortization of acquisition-related intangibles recorded in cost of sales ($946M) and operating expenses ($1,448M).
+- Diluted EPS: $1.00 vs. $0.53 prior year.
+
+Segment revenue and operating income (FY2024 vs FY2023, Item 7 table):
+- Data Center: $12,579M (+94% YoY) with operating income $3,482M (+175%).
+- Client: $7,054M (+52% YoY) with operating income $897M (vs. $(46)M$ in 2023).
+- Gaming: $2,595M (-58% YoY) with operating income $290M (vs. $971M).
+- Embedded: $3,557M (-33% YoY) with operating income $1,421M (vs. $2,628M).
+- All Other operating loss: $(4,190)M (vs. $(4,419)M).
+
+Balance sheet (Dec 28, 2024):
+- Cash & equivalents $3,787M; short-term investments $1,345M; accounts receivable $6,192M; inventories $5,734M.
+- Total current assets $19,049M; total assets $69,226M.
+- Current liabilities $7,281M; long-term debt (net of current portion) $1,721M; total stockholders' equity $57,568M.
+- Goodwill $24,839M; acquisition-related intangibles $18,930M.
+
+Cash flow (FY2024):
+- Net cash provided by operating activities $3,041M.
+- Purchases of property and equipment $636M.
+- Free cash flow ≈ $2,405M.
+- Financing uses: $750M debt repayment, $862M share repurchases under authorization, $728M tax-withholding share repurchases; proceeds from employee equity plans $279M.
+
+Q3 FY2025 (quarter ended Sept 27, 2025, Form 10-Q):
+- Net revenue for quarter $9,246M vs. $6,819M prior-year quarter.
+- Segment revenue (quarter): Data Center $4,341M (+22% YoY), Client $2,750M (+46%), Gaming $1,298M (+181%), Embedded $857M (-8%).
+- Nine-month revenue $24,369M vs. $18,127M prior-year nine months.
+- Gross profit for quarter $4,780M; R&D expense $2,139M; SG&A $1,069M.
+
+Valuation / peer metrics (Semiconductor List.xlsx, Nov 2025):
+- Market cap ~$404B; Revenue FY1 $34.0B, FY2 $44.5B (growth FY1 32%, FY2 31%).
+- EPS FY1 $3.97, EPS FY2 $6.47; PE NTM 39.6x; PS NTM 9.37x; Net profit margin (LTM) 19.0%.
+
+Other notes:
+- Inventory build of $1.4B YoY reflects MI300 and Ryzen AI staging; inventories at contract manufacturer carried $65M loss reserve.
+- Net cash position ≈ $2.3B (cash + ST investments minus total debt $1.721B).
+- Remaining share repurchase authorization >$6B as of FY2024 filing.

@@ -1,0 +1,67 @@
+Broadcom FY2024 consolidated metrics (source: Broadcom FY2024 Form 10-K, `operations` tab in Broadcom_10k_2024.xls unless noted):
+- Total net revenue: $51,574M vs. $35,819M in FY2023 (+43.99% YoY).
+- Gross margin: $32,509M (63.0% of revenue) vs. $24,690M in FY2023 (+31.67% YoY).
+- Operating income: $13,463M vs. $16,207M in FY2023 (-16.93% YoY).
+- Net income attributable to common stock: $5,895M vs. $14,082M in FY2023 (-58.14% YoY).
+- Diluted EPS (split-adjusted): $1.23 vs. $3.30 (-62.73% YoY).
+- Research & development expense: $9,310M (18.05% of revenue) vs. $5,253M (14.67% of revenue) in FY2023.
+- Interest expense: -$3,953M vs. -$1,622M in FY2023.
+- Gross margin %, operating margin %, net margin %: 63.0%, 26.1%, and 11.4%, respectively.
+
+Cash flow and capital returns (source: Form 10-K cash flow statement and `capital returns` tab):
+- Net cash provided by operating activities: $19,962M vs. $18,085M in FY2023 (+10.38% YoY).
+- Purchases of property, plant and equipment: $548M vs. $452M in FY2023 (+21.24% YoY).
+- Free cash flow (OCF - capex): $19,414M vs. $17,633M (+10.10% YoY); equates to a 37.6% FCF margin.
+- Dividends to common stockholders: $9,814M ($2.105 per share) vs. $7,645M ($1.84 per share).
+- Share repurchases under authorized program: $7,176M vs. $5,824M in FY2023.
+- Net cash used in investing activities: -$23,070M (includes -$25,978M VMware acquisition net of cash) vs. -$689M in FY2023.
+- Net cash provided by financing activities: $10,267M (includes $39,954M borrowings and -$19,608M debt repayments) vs. -$7,723M.
+
+Segment and disaggregation detail (source: Form 10-K Notes `net revenue`, `disaggregation`, `segment operating results`):
+- Semiconductor solutions revenue: $30,096M (58.4% mix) vs. $28,182M (+6.79% YoY).
+- Infrastructure software revenue: $21,478M (41.6% mix) vs. $7,637M (+181.24% YoY).
+- Products revenue: $30,359M (58.9% mix) vs. $27,891M (+8.85% YoY).
+- Subscriptions and services revenue: $21,215M (41.1% mix) vs. $7,928M (+167.60% YoY).
+- Infrastructure software operating income: $13,977M vs. $5,639M (+147.94% YoY).
+- Semiconductor solutions operating income: $16,759M vs. $16,486M (+1.66% YoY).
+- Unallocated expenses: -$17,273M vs. -$5,918M (+191.97% YoY).
+
+Balance sheet (source: Form 10-K `consolidated balance sheets` tab):
+- Cash and cash equivalents: $9,348M (vs. $14,189M in FY2023).
+- Trade accounts receivable, net: $4,416M (vs. $3,154M).
+- Inventory: $1,760M (vs. $1,898M).
+- Other current assets: $4,071M (vs. $1,606M).
+- Total current assets: $19,595M (vs. $20,847M).
+- Current liabilities: $16,697M (vs. $7,405M), including $1,271M current portion of long-term debt.
+- Long-term debt: $66,295M (vs. $37,621M).
+- Total liabilities: $97,967M (vs. $48,873M).
+- Stockholders’ equity: $67,678M (vs. $23,988M).
+- Goodwill: $97,873M (vs. $43,653M); Intangible assets, net: $40,583M (vs. $3,867M).
+- Goodwill + intangibles as a percentage of total assets ($165,645M): 83.59%.
+- Net debt (long-term + current debt minus cash): $58,218M.
+
+Intangible assets detail (source: `intangible assets` tab):
+- Developed technology $24,156M (8-year WA amortization).
+- Customer contracts/relationships $15,239M (8-year WA).
+- Trade name $1,205M (14-year WA).
+- Off-market component $242M (2-year WA).
+- Identified finite-lived intangible assets total: $40,842M; plus IPR&D $4,730M.
+
+Customer concentration and quarterly mix (source: Broadcom Form 10-Q for quarter ended Aug 4, 2024):
+- Net revenue for quarter: $13,072M (+47% YoY); segment mix 56% semiconductor / 44% infrastructure software.
+- Three fiscal quarters net revenue: $37,520M (+41% YoY) with 58%/42% split.
+- One distributor represented 26% of quarterly revenue (27% year-to-date); top five end customers represented ~35% of revenue.
+- Gross margin for quarter: $8,356M (64% of revenue) vs. $6,164M (69%) prior year.
+- Research & development expense increased $995M (+73%) YoY for the quarter.
+
+Q3 FY2025 press release (ended Aug 3, 2025):
+- Revenue $15,952M (+22% YoY).
+- AI semiconductor revenue $5,200M (+63% YoY) with expectation of $6,200M in Q4 FY2025.
+- GAAP net income $4,140M; Non-GAAP net income $8,404M; Adjusted EBITDA $10,702M (67% of revenue).
+- GAAP diluted EPS $0.85; Non-GAAP diluted EPS $1.69.
+- Operating cash flow $7,166M; capital expenditures $142M; free cash flow $7,024M (44% of revenue).
+- Quarterly dividend declared $0.59/share.
+- Q4 FY2025 revenue guidance ~$17.4B (+24% YoY) with Adjusted EBITDA margin guidance of 67%.
+
+Additional qualitative references:
+- Product/portfolio descriptions for Private Cloud, Tanzu, VeloCloud, Application Networking & Security, Mainframe Software, Distributed Software, Enterprise Security, FC SAN Mgmt, and Payment Security from FY2024 Form 10-K (software portfolio table, pp. 7--8).

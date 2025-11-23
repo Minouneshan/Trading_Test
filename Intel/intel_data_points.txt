@@ -1,0 +1,38 @@
+Intel FY2024 Form 10-K (filed February 2025)
+-------------------------------------------
+- Net revenue $53.1B (vs. $54.2B in FY2023, -2%); gross margin $17.3B (32.7%); operating loss -$11.7B; net loss -$19.2B as IDM 2.0 modernization charges and inventory reserves hit P&L.
+- Operating expenses $29.0B (+$7.4B YoY) including $3.5B restructuring, $7.0B product cost adjustments, and $2.2B depreciation tied to factory start-up.
+- Operating cash flow $8.3B; capex (additions to property, plant & equipment) $23.9B; free cash flow roughly -$15.6B reflecting aggressive foundry build-out (Ohio, Arizona, Germany, D1X).
+- Cash & cash equivalents $8.2B plus $13.8B short-term investments = $22.0B liquidity; total current assets $47.3B vs. current liabilities $35.7B (1.3x current ratio).
+- Property, plant & equipment net $107.9B (+$11.3B YoY) and total assets $196.5B; inventories $12.2B (+10%); accounts receivable $3.5B (+2%).
+- Short-term debt $3.7B; total debt $46.3B; Intel stockholders' equity $99.3B (down $6.3B YoY) as accumulated deficit absorbs restructuring.
+
+Segment detail FY2024
+---------------------
+- Client Computing Group (CCG): revenue $30.3B (+3.5%); gross margin $15.7B; AI PC enablement and Windows refresh offset a weaker low-end notebook market.
+- Data Center & AI (DCAI): revenue $12.8B (+1.4%); gross margin $6.0B; Gaudi 2/3 inference cards and Granite Rapids sampling partially offset Sapphire Rapids pricing pressure.
+- Network & Edge (NEX): revenue $5.8B (+1.2%); gross margin $3.4B; demand muted as telco digestion continued but industrial Ethernet stabilized.
+- Intel Foundry (IFS + manufacturing services): revenue $17.5B (-7.2%); gross margin -$8.1B; operating loss -$13.4B as utilization on 18A/20A ramps and external wafer mix (Tower/MediaTek) remains sub-scale.
+- Total Intel Products (CCG + DCAI + NEX) delivered $48.9B revenue (92% of consolidated); $25.1B gross margin; $13.2B operating income, which is entirely consumed by IFS drag and corporate allocations.
+
+Cash flow, balance sheet, capital allocation
+-------------------------------------------
+- Operating cash flow $8.3B; investing cash flow -$18.3B (capex-heavy, partially offset by $5.7B CHIPS prepayments & reimbursement accruals); financing cash flow +$11.1B driven by debt issuance and government incentives.
+- Cash ending balance $8.2B vs. $7.1B prior year; short-term investments stepped down $3.1B to fund fab spend and Mobileye stake increase.
+- Working capital stretched: inventories $12.2B as Intel stages EUV nodes; accounts payable $12.6B reflecting tool deliveries; accrued comp at $4.0B after restructuring.
+- Foundry subsidies (U.S. CHIPS + EU/German packages) approved but cash receipts largely 2025+; Intel expects $10B+ combined to offset capex.
+
+Intel Q1 FY2025 (quarter ended March 29, 2025)
+---------------------------------------------
+- Net revenue $12.7B (-0.4%); gross margin $5.5B (43.4%); operating loss -$1.1B; GAAP EPS -$0.09 as Gaudi ramp and restructuring charges continue.
+- Segment revenue mix: CCG $7.63B (-7.8%); DCAI $4.13B (+7.8%); Intel Foundry $4.67B (+7.1%); NEX $0.94B (+46%); inter-segment eliminations -$4.70B.
+- Client gross margin 51%; DCAI GM 58%; Foundry GM -21%; NEX GM 64%; corporate charge (R&D + overhead) $2.19B.
+- Cash & investments slipped to $20.8B after capex $4.8B in the quarter; operating cash flow $1.1B; free cash flow approximately -$3.7B.
+- AI PC narrative: 40+ Copilot+ designs locked; Meteor Lake/Arrow Lake ramp tied to Intel 4/Intel 20A progress; Granite Rapids SRF sampling for hyperscalers with volume 2H25.
+
+Valuation and market reference (Semiconductor List.xlsx, Nov 2025)
+-----------------------------------------------------------------
+- Market cap ~$171B; share price $35.91; beta 1.36.
+- Revenue LTM $53.4B; NTM revenue growth +0.2%; PS NTM 3.20x.
+- EPS NTM $0.56; PE NTM 63.8x; PEG (FY1) 0.30x given depressed forward EPS.
+- Net profit margin (LTM) 5.3%; Debt/Equity 50%; dividend yield 0%; short interest 2.4%; next earnings January 28, 2026.

@@ -1,0 +1,168 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{leftmargin=1.6em, itemsep=0.3em}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\begin{document}
+\begin{center}
+  {\LARGE Micron FY2025 + Run-Rate Due Diligence Brief}\\[4pt]
+  {\large 22 November 2025}
+\end{center}
+
+\section*{Executive takeaways}
+\begin{itemize}
+  \item Micron exited FY2025 with revenue $37.4$B (+49\% YoY) and gross margin back to 39.8\% as HBM3E and DDR5 shipments for hyperscale AI workloads absorbed 1-gamma output (FY2025 Form 10-K).
+  \item Operating income rebounded to $9.8$B (26\% margin) and GAAP EPS hit $7.59$ after two loss-making years, aided by $17.5$B of operating cash flow, modest restructuring, and $2.0$B of government incentive reimbursements (FY2025 cash flow statement).
+  \item Segment mix shifted sharply toward Compute \& Networking (CMBU 36\% of sales, +257\% YoY) while Mobile (MCBU) and Auto/Embedded (AEBU) delivered steady but lower-growth contributions; NAND remains 23\% of consolidated revenue.
+  \item Q3 FY2025 (quarter ended May 29, 2025) posted $9.3$B revenue (+36\% YoY), $2.2$B operating income, and $1.9$B net income (GAAP EPS $1.68$) with nine-month operating cash flow already $11.8$B (May 29, 2025 Form 10-Q).
+  \item Capex held at $15.9$B with EUV/backside power-delivery buildouts in Boise, Hiroshima, and Taiwan; Micron still leans on CHIPS/EU grants (noncurrent unearned incentives $1.0$B) and selective debt ($14.6$B total) to fund the AI/HBM build.
+\end{itemize}
+
+\section*{Source corpus}
+\begin{itemize}
+  \item Micron Technology, Inc. Form 10-K for the fiscal year ended August 28, 2025 (filed October 2025) --- Excel extracts for consolidated statements, segment mix, technology mix, and cash flows.
+  \item Micron Technology, Inc. Form 10-Q for the quarter ended May 29, 2025 (filed July 2025) --- operations, balance sheet, cash flow, and management commentary.
+  \item ``Semiconductor List.xlsx'' (November 2025) --- peer valuation, growth, beta, capital structure, and sentiment indicators.
+\end{itemize}
+
+\section*{HBM-led rebound and portfolio map}
+\begin{itemize}
+  \item \textbf{CMBU (Compute \& Networking)}: HBM3E, DDR5/LPDDR5X for AI servers, CXL-attached memory, and networking buffers serving hyperscalers.
+  \item \textbf{CDBU (Client \& Data)}: Client/server SSDs, consumer DRAM, PCIe Gen5 NVMe, and QLC-managed NAND for secondary storage.
+  \item \textbf{MCBU (Mobile)}: LPDDR5X, UFS 4.0 MCPs, and on-device AI memory stacks for flagship Android and Chromebook platforms.
+  \item \textbf{AEBU (Automotive \& Embedded)}: Auto-grade DRAM/NAND for ADAS/EV platforms plus industrial/IoT NOR; multiyear Tier-1 design wins maintain backlog through 2028.
+  \item \textbf{Manufacturing \& incentives}: 1-gamma DRAM and 232-layer NAND ramping with EUV and high-NA pilots; U.S. CHIPS, Japan subsidies, and European IPCEI commitments underpin the $15$--$18$B annual capex envelope.
+\end{itemize}
+
+\section*{FY2025 scoreboard}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    	oprule
+    Metric (USD in billions) & FY2025 & FY2024 & YoY \% \\
+    \midrule
+    Revenue & 37.4 & 25.1 & +48.9\% \\
+    Gross margin & 14.9 & 5.6 & +165\% \\
+    Operating income & 9.8 & 1.3 & +650\% \\
+    Net income & 8.5 & 0.8 & +997\% \\
+    Operating cash flow & 17.5 & 8.5 & +106\% \\
+    Capital expenditures & 15.9 & 8.4 & +89\% \\
+    Free cash flow & 1.7 & 0.1 & NM \\
+    R\&D expense & 3.8 & 3.4 & +10.7\% \\
+    Restructure \& other & 0.04 & 0.00 & NM \\
+    Gross margin & 39.8\% & 22.4\% & +1,740 bps \\
+    Operating margin & 26.1\% & 5.2\% & +2,090 bps \\
+    Net margin & 22.8\% & 3.1\% & +1,970 bps \\
+    \bottomrule
+  \end{tabular}
+  \caption{Micron FY2025 consolidated results (amounts converted from millions). Free cash flow defined as operating cash flow minus additions to property, plant, and equipment.}
+\end{table}
+
+\subsection*{Observations}
+\begin{itemize}
+  \item Working capital released $5.6$B of cash (receivables up $2.7$B offset by inventory draw and payables rebuild) while inventory days fell below 90 as AI and auto pipelines tightened.
+  \item Government incentives ($2.0$B cash plus $1.0$B deferred) cushioned capex; Micron expects incremental CHIPS agreements in Idaho and New York to backstop 2026 EUV and HBM expansions.
+  \item Interest expense ($477$M) remains manageable relative to $496$M interest income given $11.9$B cash + securities; dividend ($0.52$B) stayed intact even during the downturn.
+\end{itemize}
+
+\section*{Segment and mix dynamics}
+\subsection*{FY2025 segment revenue}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    	oprule
+    Segment & Revenue (\$B) & Mix & YoY \\
+    \midrule
+    CMBU & 13.5 & 36\% & +257\% \\
+    CDBU & 7.2 & 19\% & +45\% \\
+    MCBU & 11.9 & 32\% & +1.6\% \\
+    AEBU & 4.8 & 13\% & +2.6\% \\
+    \bottomrule
+  \end{tabular}
+  \caption{Business unit results per FY2025 Form 10-K; YoY compares against FY2024 revenue.}
+\end{table}
+
+\subsection*{Technology mix}
+\begin{itemize}
+  \item DRAM contributed $28.6$B (76\% of revenue) with HBM3E and DDR5/LPDDR5X nodes driving a 62\% YoY jump; Micron is sampling 1-gamma EUV nodes for 2026 shipments.
+  \item NAND delivered $8.5$B (23\%) as 232-layer TLC/QLC ramps and UFS 4.0 attach improved; managed NAND for automotive/industrial remains a pricing buffer.
+  \item Other (principally NOR) added $0.3$B for embedded/industrial control and secure microcontroller use cases.
+\end{itemize}
+
+\section*{Latest quarterly pulse (Q3 FY2025)}
+\begin{itemize}
+  \item Revenue $9.3$B (+36\% YoY) with gross margin $3.5$B (37.7\%) and operating income $2.2$B (23.3\%); net income $1.9$B ($1.68$ diluted EPS).
+  \item Segment color: CMBU/HBM backlog remains supply constrained into CY2026; client/consumer rebounded but still price sensitive; mobile OEMs accelerated LPDDR5X adoption for on-device AI; AEBU backlog anchored by Level 2+ ADAS and industrial IoT gateways.
+  \item Operating cash flow for the nine-month period reached $11.8$B vs. $5.1$B prior year; capex cash out was $8.9$B with $1.3$B CHIPS/foreign incentives already received year-to-date.
+  \item Balance sheet at May 29, 2025: cash $10.2$B, short-term investments $0.65$B, total debt $15.5$B, equity $50.7$B.
+\end{itemize}
+
+\section*{Balance sheet, liquidity, and capital intensity}
+\begin{itemize}
+  \item \textbf{Liquidity}: Cash $9.6$B + short-term investments $0.7$B + long-term marketable securities $1.6$B = $11.9$B; Micron also holds a $7$B revolving credit facility and export-credit lines tied to tool purchases.
+  \item \textbf{Leverage}: Debt $14.6$B (debt/equity 26.9\%) with staggered maturities; management targets investment-grade leverage while funding $15$B+ capex.
+  \item \textbf{Working capital}: Receivables $9.3$B, inventories $8.4$B (down $0.5$B YoY), payables/accrued $9.6$B; current ratio 2.5x provides cushion for AI-cycle volatility.
+  \item \textbf{Capex \& fabs}: $15.9$B capex concentrated on EUV-enabled DRAM, CMOS-under-array NAND, and advanced packaging; CHIPS/foreign subsidies expected to reimburse $4$--$5$B annually once milestones are certified.
+  \item \textbf{Capital returns}: Dividend resumed at $0.46$ per share annual run-rate ($0.52$B cash); buybacks remain paused until leverage and fab spend normalize.
+\end{itemize}
+
+\section*{Strategic themes and catalysts}
+\begin{enumerate}
+  \item \textbf{HBM scale and share}: Micron ships HBM3E today with 8-Hi/12-Hi stacks; ramping 1-gamma + HBM4 in 2026 is key to locking second-source slots at NVIDIA, AMD, and custom accelerators.
+  \item \textbf{AI PC and edge memory}: CDBU/MCBU benefit from LPDDR5X and UFS 4.0 attach; Windows AI PCs and Arm-based Chromebooks require higher bandwidth per system, expanding DRAM bits even without unit growth.
+  \item \textbf{Automotive pipeline}: AEBU backlog exceeds $15$B through 2028; zonal architectures and Level 2+ sensor fusion double DRAM content per vehicle.
+  \item \textbf{Government incentives}: U.S. CHIPS grants/loans for Idaho and New York plus Japan/Hiroshima subsidies improve ROIC and allow Micron to keep capex near $15$B without levering the balance sheet.
+  \item \textbf{Node leadership}: Transition to EUV-based 1-gamma DRAM and 3D NAND with CMOS-under-array/backside power delivery aims to close the cost gap vs. Samsung \& SK hynix.
+\end{enumerate}
+
+\section*{Risks and watch items}
+\begin{itemize}
+  \item \textbf{HBM supply-demand}: If GPU launches slip or customers multi-source more aggressively, HBM pricing could normalize quickly, hurting CMBU margins.
+  \item \textbf{China exposure}: Export controls on advanced DRAM/NAND or further Entity List actions could limit upside from Chinese cloud and handset OEMs.
+  \item \textbf{Process execution}: Delays on 1-gamma EUV or 232-layer NAND CMOS-under-array yield could forfeit cost leadership in 2026.
+  \item \textbf{Capex and subsidies}: Slower CHIPS disbursements or higher tool inflation could force incremental debt or reintroduce negative free cash flow.
+  \item \textbf{Pricing discipline}: Client SSD and mobile memory remain highly competitive; oversupply in 2026 would compress gross margin back toward the 30\% range.
+\end{itemize}
+
+\section*{Scenario outlook}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{p{2cm}p{6.4cm}cc}
+    	oprule
+    Scenario & Key assumptions & FY2026 revenue (\$B) & FY2026 EPS (USD) \\
+    \midrule
+    Bear & HBM orders push out, GPU launch cadence slows, and AI PC uplift slips to CY2027; pricing down mid-teens, incentives delayed. & 45 & 10.0 \\
+    Base & HBM4/1-gamma ramps smoothly, AI PCs reach low-teens PC mix, auto backlog stays firm, and subsidies fund 25\% of capex. & 52 & 16.0 \\
+    Bull & HBM4 wins at multiple hyperscalers, LPDDR5X becomes standard across Android flagships, auto wins accelerate, and CHIPS/Japan grants arrive early. & 60 & 20.0 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Scenario guardrails anchored on FY2025 actuals, Q3 FY2025 run-rate, and consensus inputs from Semiconductor List.xlsx (NTM revenue $56.5$B, NTM EPS $17.6$).}
+\end{table}
+
+\section*{Action items}
+\begin{itemize}
+  \item Track CHIPS and IPCEI award milestones plus actual cash reimbursements versus the $15$B capex run-rate.
+  \item Monitor HBM capacity adds (stack heights, TSV yields, package supply) alongside NVIDIA/AMD/ASIC demand indicators.
+  \item Watch AI PC launch cadence (Microsoft Copilot+, Qualcomm/AMD/Intel platforms) and associated DRAM/NAND bill of materials.
+  \item Review auto Tier-1 win announcements and backlog conversion to gauge AEBU revenue visibility.
+  \item Refresh valuation comps (PS NTM 4.74x, PE NTM 13.5x, beta 1.53) against NVIDIA, AMD, SK hynix on each earnings update.
+\end{itemize}
+
+\section*{Appendix: data notes}
+\begin{itemize}
+  \item Figures sourced from Micron FY2025 Form 10-K and Q3 FY2025 Form 10-Q spreadsheets included in the workspace; values converted from millions to USD billions and rounded to one decimal unless noted.
+  \item Free cash flow defined as operating cash flow minus additions to property, plant, and equipment; leverage expressed as total debt divided by shareholders' equity.
+  \item Valuation metrics, beta, EPS/revenue growth, dividend yield, and short interest pulled from ``Semiconductor List.xlsx'' (November 2025 refresh).
+  \item Segment abbreviations follow Micron disclosures: CMBU (Compute \& Networking), CDBU (Client \& Data), MCBU (Mobile), AEBU (Automotive \& Embedded).
+\end{itemize}
+
+\end{document}

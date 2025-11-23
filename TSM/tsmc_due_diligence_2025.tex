@@ -1,0 +1,177 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setlist{leftmargin=1.6em, itemsep=0.3em}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\begin{document}
+\begin{center}
+  {\LARGE TSMC FY2024 + FY2025 Run-Rate Due Diligence Brief}\\[4pt]
+  {\large 22 November 2025}
+\end{center}
+
+\section*{Executive takeaways}
+\begin{itemize}
+  \item TSMC exited FY2024 with NT\$2.89 trillion (US\$88.3B) in revenue (+34\% YoY) and 56\% gross margin, driving NT\$1.16 trillion (US\$35.3B) in net income (40\% net margin) and NT\$1.83 trillion (US\$55.7B) in operating cash flow (FY2024 Form 20-F, Item 5).
+  \item High Performance Computing (HPC) platforms surged to 51\% of revenue (+9ppt YoY) while smartphones rebounded to 35\%; together they explain \textgreater{}80\% of the 2024 top-line growth, confirming that AI accelerators and flagship phones remain the core demand rails (Item 4, ``Markets and Customers'').
+  \item Balance sheet quality improved: cash and marketable securities reached roughly US\$64.9B, current ratio was 2.36x, and net cash stood near NT\$1.11 trillion even after NT\$958B of capital expenditures concentrated on 3nm/2nm ramps (Items 5 and 11).
+  \item Geographic mix is still dominated by North America (\textasciitilde{}69\% of revenue), but management is de-risking with Arizona (three fabs), Kumamoto (two JASM fabs) and Dresden (ESMC) --- each paired with large government grants (U.S. CHIPS Act up to US\$6.6B + US\$5B loans; Germany up to EUR5B; Japan up to JPY476B) (Item 4 and subsidy disclosures).
+  \item Customer concentration intensified: the top ten customers represented 76\% of 2024 revenue, largest customer 22\%, second largest 12\%; sustaining deep co-development across nodes and advanced packaging (CoWoS, SoIC) is critical to defend share as hyperscalers pursue dual foundry strategies (Risk Factor, Item 3).
+\end{itemize}
+
+\section*{Source corpus}
+\begin{itemize}
+  \item Taiwan Semiconductor Manufacturing Company Limited Form 20-F for the year ended 31 December 2024 (filed 1 April 2025).
+  \item TSMC October 2025 earnings release and conference-call deck (Q3 2025) for forward-looking utilization, capex and packaging commentary.
+  \item "Semiconductor List.xlsx" (updated Nov 2025) for peer growth, margin, and valuation guardrails.
+  \item U.S. Department of Commerce CHIPS Act fact sheet (April 2024) and ESMC/JASM subsidy announcements for incentive terms referenced in Item 4.
+\end{itemize}
+
+\section*{Foundry operating model snapshot}
+\begin{itemize}
+  \item \textbf{Process leadership:} Volume 3nm (N3E) production underway; 2nm (N2) risk production in 2024 with volume slated for 2025, and 1.4nm-class (A14) technology roadmap disclosed for late-decade rollouts (Item 4, Technology).
+  \item \textbf{Platform overlays:} HPC covers AI accelerators, CPUs/GPUs, networking ASICs and custom silicon, benefitting from CoWoS/SoIC packaging; smartphones lean on N3E/N4P nodes with integrated RF and power management; automotive focuses on 28nm and specialty nodes + advanced packaging for ADAS.
+  \item \textbf{Manufacturing footprint:} 14 fabs in Taiwan (Hsinchu, Taichung, Tainan), plus TSMC Arizona (Fab 21 Phase 1 and 2 under construction, third fab announced), Japan's JASM (Fab 1 22/28nm ramping 2024, Fab 2 adding 6/5/4nm by 2027), and Germany's ESMC (planned 300mm fab for 28/22/16/12nm nodes by 2027).
+  \item \textbf{Supply chain capacity:} 2024 capex split 70\% advanced nodes (7nm and below), 20\% specialty (28/22/16/12nm, RF, embedded, power), 10\% advanced packaging and photomask; CoWoS output targeted to more than double between 2023 and 2026.
+  \item \textbf{Customer structure:} Hundreds of fabless/IDM partners, but hyperscaler/system companies designing in-house silicon dominate the growth; TSMC continues to co-invest in design-technology co-optimization (DTCO) and system-technology co-optimization (STCO) to defend this base.
+\end{itemize}
+
+\section*{FY2024 scoreboard}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lccc}
+    \toprule
+    Metric & FY2024 (NT\$B) & FY2024 (US\$B) & YoY \\
+    \midrule
+    Net revenue & 2,894.3 & 88.3 & +33.9\% \\
+    Gross profit & 1,624.9 & 49.5 & +24\% (est.) \\
+    Income from operations & 1,322.0 & 40.3 & +26\% (est.) \\
+    Net income attributable to shareholders & 1,158.4 & 35.3 & +36.0\% \\
+    Operating cash flow & 1,826.0 & 55.7 & n/a \\
+    Capital expenditures (PP\&E) & 958.0 & 29.2 & n/a \\
+    Free cash flow & 868.0 & 26.5 & n/a \\
+    R\&D expense & 204.2 & 6.2 & +11.9\% \\
+    Current ratio & 2.36x & -- & +20 bps \\
+    Net cash (cash + equivalents -- total debt) & 1,110.0 & 34.4 & n/a \\
+    \bottomrule
+  \end{tabular}
+  \caption{Consolidated figures from FY2024 Form 20-F (Note 3 conversion rate NT\$32.79 = US\$1).}
+\end{table}
+
+Key observations:
+\begin{itemize}
+  \item Operating margin reached 45.7\% despite inventory digestion in consumer end markets, reflecting mix toward HPC wafers and advanced packaging value-add.
+  \item Free cash flow margin was 30\%, enabling NT\$732B cash dividends plus the continuation of quarterly capital returns without tapping debt markets.
+  \item Cash comprised roughly 69\% of current assets; receivables and inventories remained well below 90 days, underscoring disciplined working-capital control.
+\end{itemize}
+
+\section*{Platform and geography mix}
+\subsection*{Platform revenue split}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lcc}
+    \toprule
+    Platform & FY2024 mix & YoY delta \\
+    \midrule
+    High Performance Computing & 51\% & +9 ppt \\
+    Smartphone & 34.7\% & -3 ppt \\
+    Internet of Things & 5.7\% & -2 ppt \\
+    Automotive & 4.8\% & +1 ppt \\
+    Digital Consumer Electronics & 1.7\% & -1 ppt \\
+    Others & 2.1\% & -4 ppt \\
+    \bottomrule
+  \end{tabular}
+  \caption{Item 4 ``Markets and Customers" platform disclosure (revenues recognized by customer platform).}
+\end{table}
+
+\subsection*{Geographic revenue split}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{lcc}
+    \toprule
+    Region (customer HQ) & FY2024 mix & Commentary \\
+    \midrule
+    North America & 69\% & Driven by hyperscalers, CPU/GPU vendors, networking OEMs. \\
+    Asia Pacific (ex-Japan/China) & 12\% & Android SoC vendors and fabless ASIC houses. \\
+    China & 11\% & Recovering smartphone and datacenter designs on older nodes. \\
+    EMEA & 6\% & Auto and industrial silicon (notably ADAS). \\
+    Japan & 2\% & Automotive/industrial, uplift from JASM partnerships. \\
+    \bottomrule
+  \end{tabular}
+  \caption{Geographic breakdown per Item 4 ``Markets and Customers".}
+\end{table}
+
+Takeaways:
+\begin{itemize}
+  \item Revenue growth in 2024 was concentrated in North America (NT\$+561B, +38\% YoY) and Asia Pacific (+NT\$109B, +63\%), reflecting AI compute waves and Android recovery.
+  \item Automotive remains a small base but fastest growing (+33\% YoY) as OEMs shift ADAS/EV controllers to in-house ASICs co-developed with TSMC.
+  \item China mix stabilized at low-teens due to export controls and preference for legacy nodes; risk mitigated via specialty capacity in Nanjing and global fabs.
+\end{itemize}
+
+\section*{Cash, balance sheet, and liquidity}
+\begin{itemize}
+  \item \textbf{Liquidity:} Cash and equivalents of NT\$2.13 trillion (US\$64.9B); financial assets at amortized cost add another NT\$364B, supporting \textgreater{}NT\$1.7T of readily available liquidity (Item 11).
+  \item \textbf{Debt:} Corporate bonds of NT\$928B (US\$28.3B) and long-term loans of \textless{}NT\$35B imply net cash \textgreater{}NT\$1.11T; weighted average coupon remains below 1.5\% given Taiwan-dollar issuance.
+  \item \textbf{Working capital:} Days sales outstanding \textless{}40; inventories held at \textless{}90 days thanks to flexible fab loading and close demand collaboration with hyperscalers.
+  \item \textbf{Capital returns:} Cash dividends totaled NT\$732B (NT\$3.00/share quarterly cadence). Share count remained stable; treasury allocation focuses on dividends rather than buybacks.
+\end{itemize}
+
+\section*{Capacity, capex, and subsidy tracker}
+\begin{itemize}
+  \item \textbf{Arizona (Fab 21):} Agreements with the U.S. Department of Commerce provide up to US\$6.6B in direct CHIPS funding and up to US\$5B in federal loans. Fab 1 (N4/N5) targets volume in 2025, Fab 2 (N3/N2) scheduled for 2027, and Fab 3 (announced April 2024) will support 2nm and 1.4nm nodes later in the decade.
+  \item \textbf{Japan (JASM):} Kumamoto Fab 1 (22/28nm specialty) starts shipments in 1H24; Fab 2 (with Sony, Denso, Toyota) will add 12/16nm and 6/5nm capacity by 2027. Japanese government subsidies up to JPY476B cover both phases.
+  \item \textbf{Germany (ESMC):} December 2024 agreement grants up to EUR5B to build a 300mm fab in Dresden with Bosch, Infineon, and NXP participation; focus on 28/22/16/12nm automotive and industrial nodes, first production targeted for 2027.
+  \item \textbf{Advanced packaging:} CoWoS output expected to triple by 2026 with new modules in Zhunan and planned Arizona packaging; SoIC capacity expanded for backside power and high-bandwidth memory stacking demanded by AI accelerators.
+  \item \textbf{Capex outlook:} 2025 spend guided at US\$28--32B, again weighted \textgreater{}70\% toward advanced nodes, as TSMC accelerates N2 and A14 while bringing backside power (N2P) into risk production.
+\end{itemize}
+
+\section*{Risks and watch items}
+\begin{itemize}
+  \item \textbf{Customer concentration:} Top-10 customers = 76\% of revenue; largest (likely Apple) = 22\%, second largest (major GPU vendor) = 12\%. Any insourcing or dual-sourcing move could quickly pressure utilization.
+  \item \textbf{Geopolitical exposure:} Majority of fabs remain in Taiwan; R.O.C. geopolitical tension, energy policy, or natural disasters could disrupt output despite geographic diversification.
+  \item \textbf{Subsidy compliance:} CHIPS, Japanese, and German grants contain ``guardrails'' restricting expansion in countries of concern and joint R\&D. Breaches could trigger clawbacks or delayed disbursements.
+  \item \textbf{Talent and supply chain:} Rapid global expansion (U.S., Japan, Germany) requires localized labor, procurement, and IT systems. Cultural integration issues have already been cited as ramp risks.
+  \item \textbf{Advanced packaging bottlenecks:} CoWoS/SoIC demand outstrips supply; any delay in equipment deliveries (e.g., high-density RDL tools) limits AI wafer monetization.
+\end{itemize}
+
+\section*{Scenario outlook (management-style)}
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{p{2cm}p{6.4cm}cc}
+    \toprule
+    Scenario & Key assumptions & FY2025 revenue (US\$B) & FY2025 EPS (NT\$) \\
+    \midrule
+    Bear & AI wafer pull-ins pause; smartphone units flat; N3/N2 ramps slip one quarter; utilization averages mid-70\%. & 80 & 32 \\
+    Base & HPC demand remains robust, N3 ramps to \textgreater{}80\% utilization, smartphones grow mid-single digits, IoT/auto steady. & 92 & 38 \\
+    Bull & Third-wave AI accelerators saturate CoWoS, N2 risk production monetizes late 2025, automotive silicon doubles via ESMC/JASM support. & 100 & 43 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Revenue outcomes translated from management commentary and peer demand signals (Semiconductor List.xlsx consensus FY1/FY2). EPS approximations assume 25.9B shares outstanding and 37\% payout ratio.}
+\end{table}
+
+\section*{Action items and monitoring}
+\begin{itemize}
+  \item \textbf{Track CoWoS/SoIC loadings:} Validate that planned packaging expansions in Zhunan and Arizona keep pace with AI accelerator order books; bottlenecks flow directly into HPC revenue.
+  \item \textbf{Monitor subsidy milestones:} Confirm drawdown schedules, compliance guardrails, and capex reimbursements for CHIPS/JASM/ESMC programs each quarter.
+  \item \textbf{Watch customer diversification:} Request disclosure on the share of revenue from system companies vs. fabless customers; monitor any rise in dual-sourcing to Samsung/Intel Foundry.
+  \item \textbf{Follow capex discipline:} Compare announced 2025 capex bands with actual cash outflows; ensure returns justify expanded global footprint amid potential demand volatility.
+  \item \textbf{Update peer comps quarterly:} Refresh "Semiconductor List.xlsx" for valuation spreads vs. NVIDIA, AMD, Broadcom, and Samsung Foundry initiatives.
+\end{itemize}
+
+\section*{Appendix: data notes}
+\begin{itemize}
+  \item USD conversions follow Note 3 (NT\$32.79 = US\$1). NT\$ figures expressed in billions unless otherwise noted.
+  \item Free cash flow defined as net cash provided by operating activities minus purchases of property, plant and equipment (cash flow statement, Item 5).
+  \item Platform/region percentages reflect revenue recognized by customer headquarters and platform classification, not necessarily the physical shipment destination.
+  \item Scenario EPS uses diluted weighted-average shares from 2024 (25.9B) and assumes a normalized tax rate of 10.5\% consistent with 2024 effective tax disclosure.
+\end{itemize}
+
+\end{document}

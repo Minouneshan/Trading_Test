@@ -1,0 +1,60 @@
+TSMC FY2024 headline metrics (source: TSMC 2024 Form 20-F, Item 5, Consolidated Statements of Profit or Loss; USD conversions use Note 3 rate NT$32.79 = US$1):
+- Net revenue: NT$2,894,308M (US$88,268M) vs. NT$2,161,736M in FY2023 (+33.9% YoY).
+- Gross profit: NT$1,624,935M (US$49,541M) vs. NT$1,310,746M (+24% YoY).
+- Income from operations: NT$1,322,049M (US$40,318M) vs. NT$1,051,358M (+25.7% YoY).
+- Net income attributable to shareholders: NT$1,158,380M (US$35,327M) vs. NT$866,803M (+33.6% YoY).
+- Diluted EPS: NT$44.66 vs. NT$33.03 (+35.2% YoY).
+- Operating margin: 45.7%; net margin: 40.0%; gross margin: 56.1%.
+- R&D expense: NT$204,182M (US$6,227M) = 7.1% of revenue; SG&A + marketing NT$198,079M (~6.8% of revenue).
+
+Cash flow and capital allocation (Form 20-F Item 5, Consolidated Statement of Cash Flows and capital return disclosure):
+- Net cash provided by operating activities: NT$1,825,956M (US$55,697M).
+- Purchases of property, plant and equipment: NT$957,974M (US$29,216M).
+- Free cash flow (OCF - capex): NT$867,982M (US$26,481M) ~30.1% FCF margin.
+- Cash dividends paid: NT$732,215M (NT$3/share quarterly cadence maintained); no share repurchases in 2024.
+- Capital expenditures mix: ~70% advanced nodes (7nm and below), ~20% specialty technologies, ~10% advanced packaging/masks per management commentary.
+
+Balance sheet and liquidity (Form 20-F Item 5, Consolidated Statement of Financial Position):
+- Cash and cash equivalents: NT$2,129,538M (US$64,938M); financial assets at amortized cost: NT$364,035M (US$11,100M).
+- Total current assets: NT$3,046,074M; current liabilities: NT$1,292,265M → current ratio 2.36x.
+- Corporate bonds outstanding: NT$928,300M (US$28,329M); long-term loans: NT$34,638M (US$1,056M); short-term loans immaterial.
+- Net cash position (cash + equivalents – total debt): approx. NT$1,110,000M (US$34,400M).
+- Shareholders' equity: NT$3,775,002M; total assets: NT$5,672,970M.
+
+Platform and geographic revenue mix (Form 20-F Item 4 “Markets and Customers” tables):
+- Platform FY2024 mix: HPC 51%, Smartphone 34.7%, IoT 5.7%, Automotive 4.8%, Digital Consumer Electronics 1.7%, Others 2.1%.
+- Platform YoY movements: HPC +58% NT$ (~+9 ppt mix), Smartphone +23% NT$, IoT -4% NT$, Automotive +33% NT$.
+- Geographic mix by customer HQ: North America 69%, Asia Pacific (ex-Japan/China) 12%, China 11%, EMEA 6%, Japan 2%.
+- 2024 revenue growth drivers: +NT$561,111M from North America (+38% YoY), +NT$109,361M from Asia Pacific (+63% YoY); 2023 decline driven by Asia Pacific (-27%) and North America (-4%).
+
+Customer concentration and business model (Form 20-F Item 3.D Risk Factors):
+- Top 10 customers accounted for ~76% of 2024 net revenue (vs. 70% in 2023 and 68% in 2022).
+- Largest customer represented 22% of net revenue (25% in 2023); second-largest 12% (11% in 2023).
+- Wafer fabrication contributed ~87% of total net revenue; remainder from testing, packaging, mask making, design, and royalty income.
+
+Capex, capacity expansion, and subsidies (Form 20-F Item 4 plus CHIPS/JASM/ESMC disclosures):
+- TSMC Arizona Corporation signed U.S. CHIPS Act agreements (Nov 2024) for up to US$6.6B direct funding + up to US$5B federal loans covering three fabs (N4/N5, N3/N2, future A14/A10-class).
+- European Semiconductor Manufacturing Company (ESMC, Dresden) secured up to EUR5B of state aid under the European Chips Act (Dec 2024) to build a 300mm fab (28/22/16/12nm) with Bosch/Infineon/NXP.
+- Japan Advanced Semiconductor Manufacturing (JASM) Phase 1 (22/28nm) backed by up to JPY476B subsidy; Phase 2 adds 12/16nm and 6/5nm capacity by 2027 with Toyota joining consortium.
+- 2024 capex spent on: N3/N3E ramp, N2 development, backend capacity (CoWoS/SoIC), new fabs in Arizona/Japan/Germany.
+
+Advanced packaging and technology roadmap (Form 20-F Item 4):
+- CoWoS output targeted to more than double from 2023 to 2026; SoIC (3D stacking) positioned for AI/HPC demand with backside power delivery planned for N2/N2P.
+- Process status: 3nm in high-volume production; 2nm entering risk production in 2024 with volume in 2025; 1.4nm-class nodes under development.
+
+Risk factors (Form 20-F Item 3.D excerpts referenced in brief):
+- Dependency on cyclical semiconductor demand; high fixed-cost fabs increase leverage to utilization swings.
+- Concentrated customer base; large customers pursuing dual-sourcing and internal silicon designs.
+- Geopolitical and regulatory exposure (Taiwan-centric footprint, export controls, subsidy guardrails restricting expansion in countries of concern).
+- Supply chain and talent challenges for overseas fabs; potential subsidy clawbacks if milestones missed.
+- IT/cybersecurity threats as global footprint expands.
+
+Scenario framework (based on management commentary + peer consensus in Semiconductor List.xlsx):
+- Bear: FY2025 revenue ~US$80B if AI demand pauses and N3 ramps slip; EPS ~NT$32, utilization mid-70%.
+- Base: FY2025 revenue ~US$92B with sustained HPC strength, smartphones mid-single-digit growth, stable automotive; EPS ~NT$38.
+- Bull: FY2025 revenue ~US$100B driven by third-wave AI accelerators, accelerated N2 commercialization, automotive doubling; EPS ~NT$43.
+
+Conversion and methodology notes:
+- USD figures use Note 3 average exchange rate (NT$32.79 = US$1) provided in the Form 20-F.
+- Free cash flow definition matches Form 20-F: operating cash flow minus capital expenditures (property, plant, and equipment).
+- Mix percentages reflect revenue recognized by customer headquarters or platform classifications and may differ from shipment destinations.
